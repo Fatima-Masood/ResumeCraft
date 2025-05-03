@@ -11,9 +11,9 @@ export default function Header() {
         <header className={styles.header}>
             <div className={styles.logo}>
                 {!session ? (
-                    <Link href='/'>AI Job Advisor</Link>
+                    <Link href='/'>ResumeCraft</Link>
                 ) : (
-                    <Link href='/job/allJobs'>AI Job Advisor</Link>
+                    <Link href='/job/allJobs'>ResumeCraft</Link>
                 )}
             </div>
             <nav className={styles.navigation}>
