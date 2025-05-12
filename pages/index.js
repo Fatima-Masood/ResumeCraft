@@ -19,7 +19,7 @@ const LandingPage = ({ featuredJobs }) => {
         </div>
       </main>
       <footer className={styles.footer}>
-        <p>© 2024 AI Job Advisor. All rights reserved.</p>
+        <p>© 2025 ResumeCraft. All rights reserved.</p>
       </footer>
     </div>
   );
@@ -42,4 +42,4 @@ export async function getServerSideProps() {
   }
 }
 
-export default LandingPage;
+export default LandingPage;
